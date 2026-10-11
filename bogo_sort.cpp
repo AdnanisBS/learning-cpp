@@ -24,7 +24,7 @@ std::vector<int> bogo_sort(std::vector<int> arr) {
 }
 
 int main() {
-    std::vector<int> nums = {3, 1, 2, 67, 69};
+    std::vector<int> nums = {3, 1, 420, 67, 69};
     std::vector<int> sorted = bogo_sort(nums);
 
     for (int value : sorted) {
